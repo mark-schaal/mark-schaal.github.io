@@ -1,0 +1,23 @@
+{
+  "name": "mark-schaal.github.io",
+  "version": "1.0.0",
+  "description": "Static documentation tool for GitHub pages.",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-schaal/mark-schaal.github.io.git"
+  },
+  "author": "Mark Schaal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mark-schaal/mark-schaal.github.io/issues"
+  },
+  "homepage": "https://github.com/mark-schaal/mark-schaal.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jekyll": "0.0.0"
+  }
+}
