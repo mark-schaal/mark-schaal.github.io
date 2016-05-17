@@ -9,12 +9,12 @@ layout: default
   </header>
 
   {% unless page.sharing == false %}
-  <div class="social-sharing">
+  <div class="post-social-sharing">
     <span class='st_facebook_hcount' displayText='Facebook'></span>
     <span class='st_twitter_hcount' displayText='Tweet'></span>
     <span class='st_linkedin_hcount' displayText='LinkedIn'></span>
   </div>
-  {% endif %}
+  {% endunless %}
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
