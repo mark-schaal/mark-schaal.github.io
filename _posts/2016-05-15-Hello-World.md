@@ -26,6 +26,7 @@ Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for
 
 > No more databases, comment moderation, or pesky updates to install—just your content.
 
+
 #### Unordered List
 
 *   Jekyll
