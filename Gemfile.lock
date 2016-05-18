@@ -120,6 +120,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-paginate (= 1.1.0)
 
 BUNDLED WITH
    1.12.3

@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "Hello World"
-date:   2016-05-15 19:32:00 -0400
+title:  "Another Hello World"
+date:   2016-05-16 19:32:00 -0400
 categories: jekyll introduction
 comments: true
 analytics: false
 ---
-
 Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for deployment.
 <!--more-->
 

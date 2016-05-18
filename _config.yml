@@ -17,6 +17,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://markschaal.com" # the base hostname & protocol for your site
 twitter_username: mschaal
 github_username:  mark-schaal
+paginate: 1
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
+
+# Additional Gem Functionalities
+gems: jekyll-paginate
