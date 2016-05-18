@@ -17,7 +17,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://markschaal.com" # the base hostname & protocol for your site
 twitter_username: mschaal
 github_username:  mark-schaal
-paginate: 1
+
+# Pagination settings
+paginate: 2
+paginate_path: "/blog/page:num/"
 excerpt_separator: <!--more-->
 
 # Build settings
