@@ -53,11 +53,9 @@ These are just a few of the _available_ **configuration** options. Many configur
 
 #### Image
 
-<figure class="aligncenter">![](https://images.unsplash.com/photo-1449452198679-05c7fd30f416?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=73181f1c6d56b933b30de2bfe21fdf3b)
+<div markdown="block">![](https://images.unsplash.com/photo-1449452198679-05c7fd30f416?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=73181f1c6d56b933b30de2bfe21fdf3b)</div>
 
-<figcaption>Photo by [Rachel Davis](https://unsplash.com/rmaedavis).</figcaption>
-
-</figure>
+Photo by [Rachel Davis](https://unsplash.com/rmaedavis).
 
 #### Video
 
@@ -117,21 +115,16 @@ end
 
 The Jekyll gem makes a jekyll executable available to you in your Terminal window. You can use this command in a number of ways.
 
-<figure class="alignleft">![](https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3f9c78df0edb464244bbabb04d1797d8)
+![test](https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3f9c78df0edb464244bbabb04d1797d8){:class="svg-filter"}
 
-<figcaption>Photo by [Dustin Lee](https://unsplash.com/dustinlee).</figcaption>
+Photo by [Dustin Lee](https://unsplash.com/dustinlee).
 
-</figure>
 
 This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such as getting your site up and running, creating and managing your content, customizing the way your site works and looks, deploying to various environments, and give you some advice on participating in the future development of Jekyll itself.
 
 Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
 
-<figure class="alignright">![](https://images.unsplash.com/photo-1442037025225-e1cffaa2dc23?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7fe04b68b0cb123bf568c6951c14b177)
-
-<figcaption>Photo by [LoboStudio Hamburg](https://unsplash.com/lobostudiohamburg).</figcaption>
-
-</figure>
+![](https://images.unsplash.com/photo-1442037025225-e1cffaa2dc23?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7fe04b68b0cb123bf568c6951c14b177)
 
 Throughout this guide there are a number of small-but-handy pieces of information that can make using Jekyll easier, more interesting, and less hazardous. Here’s what to look out for.
 

@@ -1,0 +1,30 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+ <filter id="color-gray-light">
+    <feColorMatrix in="SourceGraphic"
+      type="matrix"
+      values="1 0 0 0 0
+              1 0 0 0 0
+              1 0 0 0 0
+              0 0 0 1 0 " />
+  </filter>
+
+  <filter id="color-gray-medium">
+    <feColorMatrix in="SourceGraphic"
+      type="matrix"
+      values="0   1   0   0   0
+      0   1   0   0   0
+      0   1   0   0   0
+      0   0   0   1   0 " />
+  </filter>
+
+  <filter id="color-gray-dark">
+    <feColorMatrix in="SourceGraphic"
+      type="matrix"
+      values="0   0   1   0   0
+      0   0   1   0   0
+      0   0   1   0   0
+      0   0   0   1   0" />
+  </filter>
+
+</svg>

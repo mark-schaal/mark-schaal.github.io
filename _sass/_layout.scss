@@ -244,3 +244,11 @@
         }
     }
 }
+
+/**
+ * Filters
+ */
+.svg-filter {
+    filter: url('/images/svg/filters.svg#color-gray-dark');
+    -webkit-filter: url('/images/svg/filters.svg#color-gray-dark');
+}
