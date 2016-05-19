@@ -246,6 +246,66 @@
 }
 
 /**
+ * Pagination
+ */
+ .pagination{
+    margin: $spacing-unit 0;
+    display: block;
+    width: 100%;
+    position: relative;
+
+    .pagination__button{
+        position: relative;
+        display: inline-block;
+        padding: .5em 1em;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.5em;
+        color: #333;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: #eee;
+        background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+        background-image: linear-gradient(#fcfcfc, #eee);
+        border: 1px solid #d5d5d5;
+        border-radius: 3px;
+        -webkit-appearance: none;
+
+        // Previous Page Button State
+        &.pagination__button--prev{
+        }
+
+        // Next Page Button State
+        &.pagination__button--next{
+        }
+
+        // Current Page Button State
+        &.pagination__button--current{
+            cursor: inherit;
+            color: #fff;
+            background-color: #4078c0;
+            background-image: -webkit-linear-gradient(#4078c0, #4078c0);
+            background-image: linear-gradient(#4078c0, #4078c0);
+            border-color: #4078c0;
+            em{
+                font-style: normal;
+            }
+        }
+
+        // Disabled Button State
+        &.pagination__button--disabled{
+            cursor: inherit;
+            opacity: .66;
+        }
+    }
+ }
+
+/**
  * Filters
  */
 .svg-filter {
