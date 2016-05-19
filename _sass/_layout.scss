@@ -219,19 +219,23 @@
 }
 
 .post-meta{
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
 
+    h2,h3,h4{
+        font-family: "Source Sans Pro", sans-serif;
+    }
     h2 {
         font-size: 32px;
+        font-weight: bold;
 
         @include media-query($on-laptop) {
             font-size: 28px;
         }
-    }
+    }   
 
     h3 {
         font-size: 26px;
@@ -243,6 +247,8 @@
 
     h4 {
         font-size: 20px;
+        font-weight: bold;
+        border-bottom: 1px solid;
 
         @include media-query($on-laptop) {
             font-size: 18px;
@@ -251,11 +257,11 @@
 
     p:first-child,
     p.lead{
-        font-family: 'Merriweather', sans-serif;
+        font-family: 'Merriweather', serif;
         font-size: 20px;
         line-height: 1.7;
     }
-    
+
     p{
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 16px;
