@@ -246,6 +246,18 @@
 }
 
 /**
+ * Post Listing
+ */
+ .post--preview{
+    padding: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fafafa;
+    border: 1px solid #ebebeb;
+    border-radius: 3px; 
+ }
+
+/**
  * Pagination
  */
  .pagination{
