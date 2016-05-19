@@ -201,6 +201,7 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    font-family: 'Merriweather', sans-serif;
 }
 
 .post-social-sharing{
@@ -251,10 +252,14 @@
  .post--preview{
     padding: $spacing-unit;
     margin-bottom: $spacing-unit;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: #fafafa;
     border: 1px solid #ebebeb;
     border-radius: 3px; 
+    .post__title a{
+        font-weight: bold;
+        color: #333;
+    }
  }
 
 /**
