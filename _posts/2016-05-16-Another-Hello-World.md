@@ -2,7 +2,7 @@
 layout: post
 title:  "Another Hello World"
 date:   2016-05-16 19:32:00 -0400
-categories: jekyll introduction
+categories: debug
 comments: true
 analytics: false
 ---
