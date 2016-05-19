@@ -24,6 +24,11 @@
     }
 }
 
+
+/**
+ * Primary Navigation
+ */
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -32,7 +37,19 @@
         display: none;
     }
 
-    .page-link {
+    ul.nav,
+    ul.nav li{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    ul.nav li{
+        display: inline-block;
+        margin-left: 1em;
+    }
+
+    ul.nav li .page-link {
         color: $text-color;
         line-height: $base-line-height;
 
@@ -80,7 +97,8 @@
             padding-bottom: 5px;
         }
 
-        .page-link {
+        ul.nav li,
+        ul.nav li .page-link{
             display: block;
             padding: 5px 10px;
 
@@ -91,8 +109,6 @@
         }
     }
 }
-
-
 
 /**
  * Site footer
@@ -263,6 +279,7 @@
     }
 
     p{
+        margin: $spacing-unit 0;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 16px;
         line-height: 1.5;
