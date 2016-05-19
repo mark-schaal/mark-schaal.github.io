@@ -201,7 +201,6 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    font-family: 'Merriweather', sans-serif;
 }
 
 .post-social-sharing{
@@ -210,12 +209,17 @@
 
 .post-title {
     font-size: 42px;
+    font-family: 'Merriweather', sans-serif;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.post-meta{
+    font-family: 'Merriweather', sans-serif;
 }
 
 .post-content {
@@ -243,6 +247,20 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    p:first-child,
+    p.lead{
+        font-family: 'Merriweather', sans-serif;
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    
+    p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 53rem;
     }
 }
 
