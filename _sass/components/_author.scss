@@ -1,0 +1,12 @@
+#author-bio{
+	padding: $spacing-unit;
+	margin-bottom: $spacing-unit;
+	background: #fafafa;
+	border: 1px dashed #e8e8e8;
+
+	.by-line{
+		font-family: "Merriweather", serif;
+		font-weight: normal;
+		font-style: italic;
+	}
+}

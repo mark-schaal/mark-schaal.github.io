@@ -210,6 +210,24 @@
     font-size: 24px;
 }
 
+/**
+ * Pages
+ */
+.page-header {
+    margin-bottom: $spacing-unit;
+}
+
+.page-title {
+    font-size: 42px;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
 
 
 /**
@@ -282,7 +300,7 @@
         margin: $spacing-unit 0;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 16px;
-        line-height: 1.5;
+        line-height: 2;
         max-width: 53rem;
     }
 }
