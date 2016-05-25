@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: Articles
 sharing: false
 ---
 
@@ -36,7 +36,7 @@ sharing: false
     {% if page == paginator.page %}
       <span class="pagination__button pagination__button--current"><em>{{ page }}</em></span>
     {% elsif page == 1 %}
-      <a class="pagination__button" href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      <a class="pagination__button" href="{{ '/articles/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
       <a class="pagination__button" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}

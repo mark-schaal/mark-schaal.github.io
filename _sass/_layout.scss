@@ -288,8 +288,9 @@
             font-size: 18px;
         }
     }
-
-    p:first-child,
+    
+    // Lead Paragraph Treatment
+    >p:first-child,
     p.lead{
         font-family: 'Merriweather', serif;
         font-size: 20px;
@@ -302,6 +303,24 @@
         font-size: 16px;
         line-height: 2;
         max-width: 53rem;
+    }
+    
+    // Post-level Blockquotes
+    blockquote,
+    blockquote p{  
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 300!important;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    blockquote a{
+        color: #2a7ae2;
+        &:hover,
+        &:focus{
+            color: darken(#2a7ae2, 20%);
+            text-decoration: none;
+        }
     }
 }
 

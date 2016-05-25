@@ -24,7 +24,7 @@ email: markschaal@gmail.com
 
 # Pagination settings
 paginate: 2
-paginate_path: "/blog/page:num/"
+paginate_path: "/articles/page:num/"
 excerpt_separator: <!--more-->
 
 # Build settings
